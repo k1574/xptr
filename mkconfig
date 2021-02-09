@@ -1,0 +1,8 @@
+<$HOME/app/mk/inc/config
+VERSION = 0.1
+PROGNAME = xptr
+INCS = $USRINC $X11INC 
+LIBS = $USRLIB $X11LIB $CLIB
+DEFS = -DVERSION=\"$VERSION\" \
+	-DNAME=\"$NAME\"
+CFILES = main.c
